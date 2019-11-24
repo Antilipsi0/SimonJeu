@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+  <title>Simon jeu</title>
+</head>
+<body>
+  <h1 class="titre">SIMON JEU</h1>
+
+<!-- Modal -->
+<button id="myBtn">?</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Les règles du jeu</h2>
+    </div>
+    <div class="modal-body">
+      <p>Le jeu, électronique, éclaire une des quatre couleurs et produit un son  associé à cette couleur. Le joueur doit alors appuyer sur la touche de la couleur qui vient de s'allumer dans un délai assez court.
+      Le jeu répète la même couleur et le même son, puis ajoute au hasard une nouvelle couleur. Le joueur doit reproduire cette nouvelle séquence. Chaque fois que le joueur reproduit correctement la séquence, le jeu ajoute une nouvelle couleur.</p>
+    </div>
+  
+  </div>
+
+</div>
+
+  <div class="jeu">
+
+  
+  
+  <div class="container">
+    <button class="start">Start</button>
+    <div class="one box"></div>
+    <div class="two box"></div>
+  </div>
+
+  
+  <div class="container2">
+    <button class="reset">Reset</button>
+    <div class="three box"></div>
+    <div class="four box"></div>
+  </div>
+    
+  <div id="turn"></div>
+      <div class="text2">
+        COUNT
+      </div>
+      
+
+  <div id="turn"></div>
+      <div class="text2">
+        COUNT
+      </div>
+
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
